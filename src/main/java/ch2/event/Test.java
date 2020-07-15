@@ -10,7 +10,5 @@ public class Test {
 		DemoPublisher demoPublisher=context.getBean(DemoPublisher.class);
 		demoPublisher.publish("Hello application event");
 		context.close();
-
 	}
-
 }
